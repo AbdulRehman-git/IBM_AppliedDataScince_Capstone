@@ -5,7 +5,7 @@ IBM Data Science Capstone: SpaceX Launch Success Analysis
 Welcome to my Data Science Capstone project, where I delve into the exciting world of rocket launches, focusing on SpaceX and their groundbreaking efforts to revolutionize space travel. Let's explore the journey of SpaceX, their cost-saving strategies, and the prediction of first-stage rocket landing success.
 
 ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/api/Images/landing_1.gif)
-\
+
 ## Background
 SpaceX, a pioneering force in the space industry, is dedicated to democratizing space travel by making it affordable for everyone. The company has achieved remarkable feats, including deploying spacecraft to the International Space Station, launching a satellite constellation for global internet coverage, and conducting crewed space missions. A crucial factor contributing to SpaceX's cost-effectiveness is its innovative approach to reusing the first stage of its Falcon 9 rocket, which significantly reduces the launch cost to $62 million per launch. In contrast, other providers, unable to replicate this reusability, charge upwards of $165 million for each launch. The key to determining the launch cost lies in predicting the success of the first-stage landing. To achieve this, we harness publicly available data and employ machine learning models to forecast whether SpaceX or a competitor can successfully recover the first stage.
 
