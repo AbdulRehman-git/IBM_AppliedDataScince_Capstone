@@ -65,46 +65,40 @@ This research aims to unveil the key determinants of a successful rocket landing
 + **DataFrame Creation:** Transforming the dictionary into a dataframe.
 + **Data Export:** Saving the processed data to a CSV file.
 
-Data Wrangling
+## Data Wrangling
 
-Outcome Transformation: Converting landing outcomes into 1 for successful landings and 0 for unsuccessful ones.
++ **Outcome Transformation:** Converting landing outcomes into 1 for successful landings and 0 for unsuccessful ones.
 
-EDA with Visualization
+## EDA with Visualization
 
-Visual Insights: Generating informative charts to analyze relationships and make meaningful comparisons.
++ **Visual Insights:** Generating informative charts to analyze relationships and make meaningful comparisons.
 
-EDA with SQL
+## EDA with SQL
 
-Database Querying: Leveraging SQL to explore the data further and uncover valuable insights.
++ **Database Querying:** Leveraging SQL to explore the data further and uncover valuable insights.
 
-Maps with Folium
+## Maps with Folium
 
-Interactive Maps: Creating interactive maps to visualize launch sites, track launch outcomes, and assess proximity to geographical features.
++ **Interactive Maps:** Creating interactive maps to visualize launch sites, track launch outcomes, and assess proximity to geographical features.
 
-Dashboard with Plotly Dash
+## Dashboard with Plotly Dash
 
-Dynamic Dashboard: Building a dynamic dashboard featuring pie charts illustrating successful launches and scatter charts depicting Payload Mass vs. Success Rate by Booster Version.
++ **Dynamic Dashboard:** Building a dynamic dashboard featuring pie charts illustrating successful launches and scatter charts depicting Payload Mass vs. Success Rate by Booster Version.
 
-Predictive Analytics
+## Predictive Analytics
 
-Data Preparation: Creating a NumPy array from the Class column and standardizing the data with StandardScaler.
-Data Splitting: Splitting the data using train_test_split for model evaluation.
-Hyperparameter Optimization: Employing GridSearchCV with cv=10 for parameter tuning across different algorithms, including logistic regression, support vector machine (SVC), decision tree (DecisionTreeClassifier), and K-Nearest Neighbor (KNeighborsClassifier).
-Performance Assessment: Calculating accuracy scores on the test data using .score() for all models and evaluating the confusion matrix.
-Best Model Identification: Identifying the best model using Jaccard Score, F1 Score, and Accuracy metrics.
++ **Data Preparation:** Creating a NumPy array from the Class column and standardizing the data with StandardScaler.
++ **Data Splitting:** Splitting the data using train_test_split for model evaluation.
++ **Hyperparameter Optimization:** Employing GridSearchCV with cv=10 for parameter tuning across different algorithms, including logistic regression, support vector machine (SVC), decision tree (DecisionTreeClassifier), and K-Nearest Neighbor (KNeighborsClassifier).
++ **Performance Assessment:** Calculating accuracy scores on the test data using .score() for all models and evaluating the confusion matrix.
++ **Best Model Identification:** Identifying the best model using Jaccard Score, F1 Score, and Accuracy metrics.
 
-Conclusion
+## Conclusion
 
-Model Performance: The predictive models demonstrated similar performance on the test set, with the decision tree model exhibiting a slight advantage.
-Equatorial Advantage: Most launch sites strategically position near the equator, capitalizing on Earth's rotational speed to reduce launch costs.
-Coastal Convenience: All launch sites are strategically located near coastlines, simplifying logistical operations.
-Launch Success Trend: The data reveals a positive trend in launch success rates over time.
++ **Model Performance:** The predictive models demonstrated similar performance on the test set, with the decision tree model exhibiting a slight advantage.
++ **Equatorial Advantage:** Most launch sites strategically position near the equator, capitalizing on Earth's rotational speed to reduce launch costs.
++ **Coastal Convenience:** All launch sites are strategically located near coastlines, simplifying logistical operations.
++ **Launch Success Trend:** The data reveals a positive trend in launch success rates over time.
 KSC LC-39A: This launch site stands out with the highest success rate, achieving a 100% success rate for launches weighing less than 5,500 kg.
 Orbital Excellence: Orbits ES-L1, GEO, HEO, and SSO have consistently achieved a 100% success rate.
-Payload Mass Impact: Across all launch sites, there is a clear correlation between higher payload mass (kg) and higher success rates.
-
-Additional Considerations
-
-Dataset Expansion: A larger dataset could enhance the predictive analytics results, potentially yielding insights that are applicable to a broader data set.
-Feature Analysis / PCA: Conducting further feature analysis or principal component analysis could potentially enhance accuracy.
-XGBoost Exploration: Exploring the use of XGBoost, a powerful model not employed in this study, could yield interesting comparisons and performance improvements.
++ **Payload Mass Impact:** Across all launch sites, there is a clear correlation between higher payload mass (kg) and higher success rates.
