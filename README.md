@@ -11,7 +11,7 @@ SpaceX, a pioneering force in the space industry, is dedicated to democratizing 
 
 ## Exploration
 
-Our analysis delves into several critical aspects:
+This analysis delves into several critical aspects:
 
 + Investigating how factors such as payload mass, launch site, number of flights, and orbits influence the success of first-stage landings.
 + Charting the progression of successful landings over time.
